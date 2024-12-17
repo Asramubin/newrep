@@ -1,0 +1,16 @@
+import'package:flutter/material.dart';
+//main function
+void main(){
+runApp(MyApp());//lets change it
+}
+//stateless widget class
+class MyApp extends StatelessWidget
+{
+const MyApp({super.key});
+@override
+Widgetbuild(BuildContext context){
+return MaterialApp(
+home:Text('FDP'),
+),
+}
+}
